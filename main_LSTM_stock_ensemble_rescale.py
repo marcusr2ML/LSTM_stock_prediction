@@ -183,7 +183,7 @@ for idx, company_name in enumerate(company_names):
     
     preds = np.concatenate(preds, axis=0)
     
-    # --- No inverse transform needed! ---
+    # --- No inverse transform needed---
     pred_close[idx, :] = preds[:, 0]
     
         
